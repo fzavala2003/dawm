@@ -1,0 +1,39 @@
+#formulario{
+    background-color: rgb(110, 126, 192);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:10px;
+    width: 30%;
+    padding:50px;
+
+
+}
+#formulario-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:90%;
+    height:30px;
+    border-color: blue;
+}
+
+@media(max-width:700px){
+    #formulario{
+        width: 50%;
+    }
+}
+
+#imagen-container{
+    width: 10%;
+    background-color: aquamarine;
+}
+#menu{
+    list-style: none;
+    display:flex;
+    justify-content:flex-end;
+    gap:2%;
+}

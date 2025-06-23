@@ -4,16 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi Página Web</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="module" href="main.js">
     </head>
     <body>
+        <header>
+            <nav id="menu-container">
+                <ul id="menu">
+                    <li class="elemento-menu"><a href="#">Tema1</a></li>
+                    <li class="elemento-menu"><a href="#">Tema2</a></li>
+                    <li class="elemento-menu"><a href="#">Tema3</a></li>
+                    <li class="elemento-menu"><a href="#">Tema4</a></li>
+                </ul>
+            </nav>
+        </header>
         <div> 
             <h2 id="Titulo"> Bienvenido a mi pagina web  </h2>
         </div>
 
-        <div>
-            <form>
+        <div id="formulario-container">
+            <form id="formulario">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre"placeholder="Escribe tu nombre">
                 <label for="mensaje">mensaje</label>
@@ -24,8 +34,8 @@
                 <input type="tel" id="telefono" name=telefono placeholder="Escribe tu telefono">
             </form>
         </div>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/518/518713.png" id="Imagen" alt="Imagen de linux" height="500" width="500">
+        <div id="imagen-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/518/518713.png" id="Imagen" alt="Imagen de linux" height=auto width="100%">
         </div>
 
     </body>
